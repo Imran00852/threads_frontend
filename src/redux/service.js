@@ -51,7 +51,7 @@ export const serviceApi = createApi({
     logout: builder.mutation({
       query: () => ({
         url: "logout",
-        method: "POSt",
+        method: "POST",
       }),
       invalidatesTags: ["Me"],
     }),
